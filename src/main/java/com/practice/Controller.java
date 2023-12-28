@@ -10,10 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Controller.class);
+
     private final ChatClient chatClient;
+
     public Controller(ChatClient chatClient) {
         this.chatClient = chatClient;
     }
+
     @GetMapping("greeting")
     String greeting(){
         LOGGER.info("Greeting request received");
