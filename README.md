@@ -1,4 +1,4 @@
-# springai-openai-hello-world
+# springai-openai-hello-world 
 A spring-ai powered spring-boot microservice accessing OpenAI's api
 
 ## Technologies used
@@ -17,15 +17,17 @@ As mentioned above, the objective of project <b>Spring AI</b> is to focus on ena
 that spring team has created a library <u>spring-ai-openai-spring-boot-starter</u>. The library does not have a release
 version yet so a snapshot version can be used for now to play around. As of today (28/12/2023), the latest library version 
 is 0.8.0-SNAPSOT.
+
+## Steps for SpringAI and OpenAI integration
 Following steps can be used to smoothly integrate AI(OpenAI) in a spring-boot application.
 
 
-Step 1: Create a spring boot application
+#### Step 1: Create a spring boot application
 
 Create a spring-boot application using https://start.spring.io/ (spring initializer) with only <u>spring-boot-starter-web</u> dependency to begin with
 
 
-Step 2: Add spring-ai's openai starter dependency 
+#### Step 2: Add spring-ai's openai starter dependency 
 
 ```groovy 
 implementation 'org.springframework.ai:spring-ai-openai-spring-boot-starter:0.8.0-SNAPSHOT' 
@@ -40,7 +42,7 @@ repositories {
 }
 ```
 
-Step 3: Using org.springframework.ai.chat.ChatClient to interact with OpenAi api
+#### Step 3: Using org.springframework.ai.chat.ChatClient to interact with OpenAi api
 
 The interface org.springframework.ai.chat.ChatClient is the base for all currently supported spring-ai implementations such as OpenAI, 
 Azure OpenAI, Hugging Face and Ollama. Planned implementations are Amazon Bedrock,Google Vertex: 'Bard'. 
@@ -84,7 +86,7 @@ public class Controller {
 }
 ```
 
-Step 4: Configure API key to enable OpenAI api access
+#### Step 4: Configure API key to enable OpenAI api access
 
 The last step to enable this spring-boot app and OpenAI api communication is to add API to configuration file
 `application.properties` as shown below.
@@ -102,3 +104,6 @@ export YOUR_OPENAI_API_KEY=<INSERT YOUR KEY HERE>
 With these steps, your application is ready to talk to OpenAI using spring-ai library.
 Run the application and hit url <u>http://localhost:8080/greeting</u> using a browser or curl command.
 
+The response to above request would be a response from OpenAI api in the requested form.
+
+Time spent on this repo:      [![wakatime](https://wakatime.com/badge/user/c0c95904-b67a-4a62-bb09-8d5a5255068b/project/018c8690-4de0-4a98-96a9-d7efc0be0195.svg)](https://wakatime.com/badge/user/c0c95904-b67a-4a62-bb09-8d5a5255068b/project/018c8690-4de0-4a98-96a9-d7efc0be0195)
