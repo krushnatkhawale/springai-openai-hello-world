@@ -110,7 +110,7 @@ Blog covering this topic: https://medium.com/@krushnatkhawale/unleashing-the-pow
 
 Time spent on this repo : [![wakatime](https://wakatime.com/badge/user/c0c95904-b67a-4a62-bb09-8d5a5255068b/project/018c8690-4de0-4a98-96a9-d7efc0be0195.svg)](https://wakatime.com/badge/user/c0c95904-b67a-4a62-bb09-8d5a5255068b/project/018c8690-4de0-4a98-96a9-d7efc0be0195)
 
-Inspiration and References:
+### Inspiration and References:
 
 - [Spring AI :: Spring AI Reference](https://docs.spring.io/spring-ai/reference/index.html)
 - [Enabling LLMs in Cloud Native Java, a presentation with Arun Gupta — YouTube](https://www.youtube.com/watch?v=N5HqaIBT1v0)
