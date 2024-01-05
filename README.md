@@ -106,4 +106,8 @@ Run the application and hit url <u>http://localhost:8080/greeting</u> using a br
 
 The response to above request would be a response from OpenAI api in the requested form.
 
-Time spent on this repo:      [![wakatime](https://wakatime.com/badge/user/c0c95904-b67a-4a62-bb09-8d5a5255068b/project/018c8690-4de0-4a98-96a9-d7efc0be0195.svg)](https://wakatime.com/badge/user/c0c95904-b67a-4a62-bb09-8d5a5255068b/project/018c8690-4de0-4a98-96a9-d7efc0be0195)
+Blog covering this topic: https://medium.com/@krushnatkhawale/unleashing-the-power-of-generative-ai-integrating-openais-api-with-springai-7bbc9ebbe138
+
+Time spent on this repo : [![wakatime](https://wakatime.com/badge/user/c0c95904-b67a-4a62-bb09-8d5a5255068b/project/018c8690-4de0-4a98-96a9-d7efc0be0195.svg)](https://wakatime.com/badge/user/c0c95904-b67a-4a62-bb09-8d5a5255068b/project/018c8690-4de0-4a98-96a9-d7efc0be0195)
+
+
