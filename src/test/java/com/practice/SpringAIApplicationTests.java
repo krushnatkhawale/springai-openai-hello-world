@@ -39,7 +39,7 @@ class SpringAIApplicationTests {
                 .defaultStatusHandler(new ResponseHandler())
                 .build();
 
-        when(chatClient.generate(anyString())).thenReturn(DUMMY_RESPONSE);
+        when(chatClient.call(anyString())).thenReturn(DUMMY_RESPONSE);
     }
 
     @Test

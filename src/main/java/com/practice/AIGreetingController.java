@@ -17,7 +17,7 @@ public class AIGreetingController {
     @GetMapping("greeting")
     String greeting(){
         LOGGER.info("Greeting request received");
-        final String aiClientResponse = chatClient.generate(
+        final String aiClientResponse = chatClient.call(
                 """
                     As a modern generative AI model,
                     Generate a 5 liner greeting message in your style for a human in text form.
