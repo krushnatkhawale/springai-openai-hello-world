@@ -14,11 +14,18 @@ java {
 repositories {
 	mavenCentral()
 	maven { url 'https://repo.spring.io/snapshot' }
+
+}
+
+dependencyManagement {
+	imports {
+		mavenBom 'org.springframework.ai:spring-ai-bom:1.0.0'
+	}
 }
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.springframework.ai:spring-ai-openai-spring-boot-starter:0.8.0-SNAPSHOT'
+	implementation 'org.springframework.ai:spring-ai-starter-model-openai'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
